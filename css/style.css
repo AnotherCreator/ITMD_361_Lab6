@@ -53,3 +53,10 @@ body {
 #sidebar-container ul {
     list-style-type: none;
 }
+
+#sidebar-container ul li a {
+    display: block;
+    padding: 15px 0;
+    color: #fff;
+    text-decoration: none;
+}

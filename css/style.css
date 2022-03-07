@@ -4,8 +4,8 @@ body {
 
 #main-navbar {
     background-color: blue;
-    /* EXPERIMENTAL */
     overflow: hidden;
+    /* EXPERIMENTAL */
 }
 
 #main-navbar ul {
@@ -39,31 +39,17 @@ body {
 }
 
 
-/*!* SIDEBAR HANDLING *!*/
-/*#sidebar {*/
-/*    background-color: red;*/
-/*    position: fixed;*/
+/* SIDEBAR HANDLING */
+#sidebar-container {
+    background-color: red;
+    position: fixed;
+    /* EXPERIMENTAL */
+    right: 0;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+}
 
-/*    !* EXPERIMENTAL *!*/
-/*    right: 0;*/
-/*    height: 100%;*/
-/*    width: 20%;*/
-/*    text-align: center;*/
-/*    padding: 0;*/
-/*    display: block;*/
-/*    list-style-type: none;*/
-/*}*/
-
-/*#sidebar-container {*/
-/*    background-color: red;*/
-/*    position: fixed;*/
-
-/*    !* EXPERIMENTAL *!*/
-/*    padding: 15px 0;*/
-/*    color: #fff;*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*#sidebar-container ul {*/
-/*    list-style-type: none;*/
-/*}*/
+#sidebar-container ul {
+    list-style-type: none;
+}

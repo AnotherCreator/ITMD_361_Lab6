@@ -2,19 +2,10 @@ body {
     background-color: #fff;
 }
 
-header {
-    background-color: blue;
-    overflow: hidden;
-    position: relative;
-}
-
 #main-navbar {
     background-color: blue;
     /* EXPERIMENTAL */
     overflow: hidden;
-    float: left;
-    width: 100%;
-    position: relative;
 }
 
 #main-navbar ul {
@@ -35,6 +26,10 @@ header {
 #navbar-container ul li {
     list-style-type: none;
     /* EXPERIMENTAL */
+}
+
+#navbar-container ul li a {
+    display: block;
 }
 
 #onpage {

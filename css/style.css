@@ -23,17 +23,33 @@ body {
     /* EXPERIMENTAL */
 }
 
+#navbar-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    left: 50%;
+}
+
 #navbar-container ul li {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    right: 50%;
     /* EXPERIMENTAL */
 }
 
 #navbar-container ul li a {
     display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
 }
 
 #onpage {
-    color: #000;
     text-decoration: underline overline;
     /* EXPERIMENTAL */
 }
